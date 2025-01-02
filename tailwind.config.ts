@@ -9,8 +9,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        DEFAULT: "#000",
-        100: "000319",
+        black: {
+          DEFAULT: "#000", // Use `bg-black` for this color
+          100: "#000319", // Use `bg-black-100` for this color
+        },
       },
     },
   },
