@@ -1,7 +1,8 @@
 import React from "react";
+import Navbar from "./sections/Navbar";
 
 const App = () => {
-  return <div className="text-white text-3xl">App</div>;
+  return <Navbar />;
 };
 
 export default App;
