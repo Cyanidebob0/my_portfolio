@@ -10,9 +10,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react-three/drei": "^9.121.4",
+    "@react-three/fiber": "^8.17.14",
+    "leva": "^0.10.0",
     "my_portfolio": "file:",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-responsive": "^10.0.0",
+    "three": "^0.173.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",

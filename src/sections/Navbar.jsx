@@ -26,7 +26,7 @@ const Navbar = () => {
             href="/"
             className=" text-neutral-400 font-bold text-xl hover:text-white transition-colors"
           >
-            bhuvan
+            Bhuvan
           </a>
           <button
             onClick={() => setIsOpen((prev) => !prev)}
