@@ -1,12 +1,12 @@
 import { PerspectiveCamera } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import React, { Suspense, useRef } from "react";
-import HackerRoom from "../Components/HackerRoom";
-import CanvasLoader from "../Components/CanvasLoader";
+import HackerRoom from "../components/HackerRoom.jsx";
+import CanvasLoader from "../components/CanvasLoader.jsx";
 import { useMediaQuery } from "react-responsive";
 import { calculateSizes } from "../constants";
-import HeroCamera from "../Components/HeroCamera.jsx";
-import Button from "../Components/Button.jsx";
+import HeroCamera from "../components/HeroCamera.jsx";
+import Button from "../components/Button.jsx";
 
 const Hero = () => {
   const ismall = useMediaQuery({ maxWidth: 440 });

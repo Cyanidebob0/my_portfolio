@@ -1,4 +1,4 @@
-import useSmoothScroll from "../Components/UseSmoothScroll";
+import useSmoothScroll from "./UseSmoothScroll";
 
 const Button = ({ name, isBeam = false, containerClass, scrollToId }) => {
   const scrollTo = useSmoothScroll();

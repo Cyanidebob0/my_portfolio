@@ -5,8 +5,8 @@ import { Canvas } from "@react-three/fiber";
 import { Center, OrbitControls } from "@react-three/drei";
 
 import { myProjects } from "../constants/index.js";
-import CanvasLoader from "../Components/CanvasLoader.jsx";
-import DemoComputer from "../Components/DemoComputer.jsx";
+import CanvasLoader from "../components/CanvasLoader.jsx";
+import DemoComputer from "../components/DemoComputer.jsx";
 
 const projectCount = myProjects.length;
 
