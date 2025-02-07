@@ -5,8 +5,8 @@ import { Canvas } from "@react-three/fiber";
 import { Center, OrbitControls } from "@react-three/drei";
 
 import { myProjects } from "../constants/index.js";
-import CanvasLoader from "../components/CanvasLoader.jsx";
-import DemoComputer from "../components/DemoComputer.jsx";
+import CanvasLoader from "../Components/CanvasLoader.jsx";
+import DemoComputer from "../Components/DemoComputer.jsx";
 
 const projectCount = myProjects.length;
 
@@ -34,7 +34,7 @@ const Projects = () => {
   const currentProject = myProjects[selectedProjectIndex];
 
   return (
-    <section className="c-space my-20">
+    <section id="project" className="c-space my-20">
       <p className="head-text">My Selected Work</p>
 
       <div className="grid lg:grid-cols-2 grid-cols-1 mt-12 gap-5 w-full">
