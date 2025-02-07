@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { navLinks } from "../constants/index.js";
-import useSmoothScroll from "./UseSmoothScroll.jsx";
+import useSmoothScroll from "../components/UseSmoothScroll.jsx";
 
 const NavItems = ({ onClick = () => {} }) => {
   const scrollTo = useSmoothScroll();
