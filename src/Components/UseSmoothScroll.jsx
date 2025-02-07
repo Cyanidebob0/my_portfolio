@@ -22,7 +22,7 @@ const UseSmoothScroll = () => {
       window.scrollTo(0, startPosition + distance * easeInOutQuad);
 
       if (elapsedTime < duration) {
-        requestAnimationFrame(animation);
+        requestAnimationFrame(animation); //works
       }
     }
 
