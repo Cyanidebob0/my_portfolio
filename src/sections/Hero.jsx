@@ -5,8 +5,8 @@ import HackerRoom from "../Components/HackerRoom";
 import CanvasLoader from "../Components/CanvasLoader";
 import { useMediaQuery } from "react-responsive";
 import { calculateSizes } from "../constants";
-import HeroCamera from "../Components/HeroCamera";
-import Button from "../Components/Button";
+import HeroCamera from "../Components/HeroCamera.jsx";
+import Button from "../Components/Button.jsx";
 
 const Hero = () => {
   const ismall = useMediaQuery({ maxWidth: 440 });
