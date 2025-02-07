@@ -3,7 +3,7 @@ import { navLinks } from "../constants/index.js";
 import UseSmoothScroll from "../components/UseSmoothScroll.jsx";
 
 const NavItems = ({ onClick = () => {} }) => {
-  const scrollTo = useSmoothScroll();
+  const scrollTo = UseSmoothScroll();
 
   return (
     <ul className="nav-ul">

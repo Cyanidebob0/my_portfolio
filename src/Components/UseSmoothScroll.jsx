@@ -1,6 +1,6 @@
 import { useCallback } from "react";
 
-const useSmoothScroll = () => {
+const UseSmoothScroll = () => {
   const scrollTo = useCallback((id, duration = 1000) => {
     const target = document.getElementById(id);
     if (!target) return;
@@ -32,4 +32,4 @@ const useSmoothScroll = () => {
   return scrollTo;
 };
 
-export default useSmoothScroll;
+export default UseSmoothScroll;
