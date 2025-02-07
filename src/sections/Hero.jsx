@@ -1,12 +1,12 @@
 import { PerspectiveCamera } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
-import React, { Suspense } from "react";
+import React, { Suspense, useRef } from "react";
 import HackerRoom from "../Components/HackerRoom";
 import CanvasLoader from "../Components/CanvasLoader";
 import { useMediaQuery } from "react-responsive";
 import { calculateSizes } from "../constants";
 import HeroCamera from "../Components/HeroCamera";
-import Button from "../Components/Button";
+import Button from "../components/Button";
 
 const Hero = () => {
   const ismall = useMediaQuery({ maxWidth: 440 });
@@ -14,6 +14,7 @@ const Hero = () => {
   const istablet = useMediaQuery({ minWidth: 768, maxWidth: 1024 });
 
   const sizes = calculateSizes(ismall, ismobile, istablet);
+
   return (
     <section className="min-h-screen flex w-full flex-col relative">
       <div className="w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3">
@@ -41,14 +42,13 @@ const Hero = () => {
           </Suspense>
         </Canvas>
       </div>
-      <div className="absolute bottom-7 left-0 right-0 w-full z-10 c-space">
-        <a href="#about" className="w-fit">
-          <Button
-            name="Let's work together"
-            isBeam
-            containerClass="sm:w-fit w-full sm:min-w-96"
-          />
-        </a>
+      <div className="absolute bottom-7 left-0 right-0 w-full z-10 flex justify-center">
+        <Button
+          name="Let's work together"
+          isBeam
+          containerClass="sm:w-fit w-full sm:min-w-96"
+          scrollToId="about"
+        />
       </div>
     </section>
   );
