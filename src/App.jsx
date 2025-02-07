@@ -6,7 +6,7 @@ import Project from "./sections/Project";
 
 const App = () => {
   return (
-    <main classname="max-w-7xl mx-auto">
+    <main className="max-w-7xl mx-auto">
       <Navbar />
       <Hero />
       <About />
