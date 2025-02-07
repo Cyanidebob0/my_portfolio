@@ -6,7 +6,7 @@ import CanvasLoader from "../Components/CanvasLoader";
 import { useMediaQuery } from "react-responsive";
 import { calculateSizes } from "../constants";
 import HeroCamera from "../Components/HeroCamera";
-import Button from "../components/Button";
+import Button from "../Components/Button";
 
 const Hero = () => {
   const ismall = useMediaQuery({ maxWidth: 440 });
