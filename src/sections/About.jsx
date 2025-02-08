@@ -78,7 +78,12 @@ const About = () => {
               <p className="grid-subtext">
                 I&apos;m based in Bangalore, India and open to relocate.
               </p>
-              <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
+              <Button
+                name="Contact Me"
+                isBeam
+                containerClass="w-full mt-10"
+                scrollToId={"contact"}
+              />
             </div>
           </div>
         </div>
